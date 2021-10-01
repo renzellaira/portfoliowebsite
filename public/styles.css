@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=Special+Elite&display=swap");
+
+
+/* navbar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+  justify-content: center;
+  color: white !important;
+}
+
+.navbar-collapse {
+  justify-content: center;
+}
+
+.navbar-brand {
+  font-size: 50px;
+}
+
+/* home */
+.center {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  /* text-align: center;
+  align-items: center; */
+  margin: auto;
+  color: white;
+}
+
+.container-fluid {
+  display: flex;
+  top: 0;
+  flex-direction: column;
+  height: 100vh;
+  background-size: cover;
+  margin-top: 0;
+}
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+}
+#mainNav {
+  margin: auto -16px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  color: white;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.home {
+  background-size: cover;
+  width: 100%;
+  height: 10vh;
+}
+
+.nav-text {
+  font-size: 25px;
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.intro-text {
+  font-family: "Special Elite", cursive !important;
+  font-size: 7em;
+}
+
+.title-text {
+  color: #f9bc8a !important;
+}
+
+.down-icon {
+  color: white;
+  font-size: 4em;
+  animation: bounce 3s infinite;
+  margin: 0 auto 5%;
+}
+
+.bounce {
+  animation: bounce 3s infinite;
+}
+
+.bounce::hover {
+  color: #f9bc8a;
+}
+
+/* skills */
+
+.skills {
+  padding-top: 10%;
+  text-align: center;
+  background-color: #1F222Bff;
+  height: auto;
+  
+}
+
+.section-header {
+  color: white;
+  margin-bottom: 10px;
+  font-family: "Special Elite", cursive !important;
+}
+
+.avatar-img {
+  height: auto;
+  width: 90%;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.icons-list {
+  list-style: none;
+  text-align: left;
+  font-size: 1.25em;
+}
+
+
+.icons-list li {
+  font-family: "Poppins", sans-serif;
+  font-style: italic;
+  padding-bottom: 1rem;
+  color: white;
+}
+
+.icons-list li > i,
+.icons-list li > img {
+  background-color: black;
+  border-radius: 50ex;
+  position: relative;
+  -webkit-box-shadow: 0 0 5px #fff, 2px 0 5px #ff27ff, -2px 0 5px cyan, 2px 0 5px #ff27ff, -2px 0 5px cyan, 0 0 6px #fff, -1px 0 5px #ff27ff, 1px 0 5px cyan;
+          box-shadow: 0 0 5px #fff, 2px 0 5px #ff27ff, -2px 0 5px cyan, 2px 0 5px #ff27ff, -2px 0 5px cyan, 0 0 6px #fff, -1px 0 5px #ff27ff, 1px 0 5px cyan;
+  -webkit-animation: spin-icons 4s linear infinite alternate;
+          animation: spin-icons 4s linear infinite alternate;
+}
+
+.icons-list li > i {
+  padding: 0.5rem;
+  margin-right: 1rem;
+}
+
+.icons-list li > img {
+  height: 30px;
+  width: auto;
+  margin-right: 1rem;
+  padding: 0.5rem;
+}
+
+.skillCont {
+  margin-top: 15%;
+}
+
+/* work section */
+
+.work-bg {
+   background: -webkit-linear-gradient(rgba(31,34,43,0.5), rgba(195, 55, 100, 0.5), url);
+   background-attachment: fixed;
+  background-size: cover;
+  height: 100%;
+  }
+.works-header {
+  margin-top: 5%;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.work-card {
+
+  width: 100%; 
+  height: 100%;
+  
+}
+.card-img.top {
+ 
+    width: 40%;
+    height: 5vw;
+    object-fit: cover;
+
+}
+
+.tech-btn {
+  margin: 0 5px;
+  background: rgba(33,37,41,0.8);
+  background-image: -webkit-linear-gradient(top, #000000, #000000);
+  background-image: -moz-linear-gradient(top, #000000, #000000);
+  background-image: -ms-linear-gradient(top, #000000, #000000);
+  background-image: -o-linear-gradient(top, #000000, #000000);
+  background-image: linear-gradient(to bottom, #000000, #000000);
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: 'Roboto Mono', monospace;
+  color: #00ff1e;
+  font-size: 1rem;
+  padding: 5px 10px 5px 10px;
+  border: solid #ffffff 1px;
+  text-decoration: none;
+}
+
+.work-card:hover {
+  box-shadow: 0 0 14px 2px #ffffff;
+    transform: scale(1.05);
+}
+
+.work-row {
+  margin-bottom: 50px;
+}
+
+.link{
+   color: #ffffff;
+   text-decoration: none;
+   
+}
+
+.link:hover {
+  color: #00ff1e;
+}
+
+.live {
+  text-align: right;
+  float: right;
+}
+
+/* Contact Me */
+
+
+.bg-contact {
+
+    text-align: center;
+    background-color: #1F222Bff;
+    height: auto;
+    
+}
+
+.fab {
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+
+.fab:hover {
+  transform: scale(1.75);
+  
+}
